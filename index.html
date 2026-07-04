@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selamat Ulang Tahun, Alvina</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <button id="soundToggle" class="sound-toggle" aria-label="Nyalakan atau matikan musik">
+    <span id="soundIcon">🔇</span>
+  </button>
+
+  <div class="eyebrow">Dengan penuh cinta</div>
+  <h1 class="title">Selamat Ulang Tahun</h1>
+  <div class="name">Alvina Widianti</div>
+  <div class="divider"></div>
+
+  <!-- Carousel foto -->
+  <div class="carousel" id="carousel">
+    <div class="carousel-track" id="carouselTrack">
+      <div class="carousel-slide"><img src="images/1.jpg" alt="Kenangan Alvina 1"></div>
+      <div class="carousel-slide"><img src="images/2.jpg" alt="Kenangan Alvina 2"></div>
+      <div class="carousel-slide"><img src="images/3.jpg" alt="Kenangan Alvina 3"></div>
+      <div class="carousel-slide"><img src="images/4.jpg" alt="Kenangan Alvina 4"></div>
+      <div class="carousel-slide"><img src="images/5.jpg" alt="Kenangan Alvina 5"></div>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+
+  <div class="age-card">
+    <div class="age-label">Usia sekarang</div>
+    <div class="age-number" id="ageNumber">0</div>
+    <div class="age-suffix">Tahun</div>
+  </div>
+
+  <div class="message">
+    <p>Dua puluh tahun sudah perjalanan Alvina, dan setiap tahunnya selalu membawa cerita yang layak untuk dirayakan.</p>
+    <p>Semoga di usia yang baru ini, langkahmu semakin mantap, hatimu semakin tenang, dan setiap mimpi yang kamu perjuangkan mendapat jalannya masing-masing.</p>
+    <p>Tetaplah menjadi Alvina yang hangat dan tulus seperti biasanya — dunia terasa lebih baik dengan orang sepertimu di dalamnya.</p>
+    <div class="signoff">Selamat ulang tahun, semoga selalu bahagia.</div>
+  </div>
+
+  <div class="countdown-section">
+    <div class="countdown-label">Menuju ulang tahun berikutnya</div>
+    <div class="countdown-grid" id="countdownGrid">
+      <div class="cd-box"><div class="cd-num" id="cdDays">00</div><div class="cd-unit">Hari</div></div>
+      <div class="cd-box"><div class="cd-num" id="cdHours">00</div><div class="cd-unit">Jam</div></div>
+      <div class="cd-box"><div class="cd-num" id="cdMinutes">00</div><div class="cd-unit">Menit</div></div>
+      <div class="cd-box"><div class="cd-num" id="cdSeconds">00</div><div class="cd-unit">Detik</div></div>
+    </div>
+  </div>
+
+  <footer>Dibuat dengan hangat untuk Alvina</footer>
+
+</div>
+
+<audio id="bgMusic" src="music.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
